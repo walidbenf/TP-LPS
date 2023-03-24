@@ -22,11 +22,11 @@ Click on correction.html for the original
 
 
 ### TP02
-Integration of the model of the restaurant "Ce soir" 
-You will find textures for the background of the header here: [cg_texture](http://www.textures.com/browse/bare/45356)
+Integration of the model of the restaurant "Ce soir". 
+You will find textures for the background of the header here: [cg_texture](http://www.textures.com/browse/bare/45356).
 
 The images are in the img folder. To be rearranged in the hierarchy.
-For the log you will use the file cerf.svg
+For the log you will use the file cerf.svg.
 Well done !
 
 ### TP03
