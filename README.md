@@ -25,4 +25,13 @@ Vous trouverez des textures pour le background du header ici :
 
 Bon travail !
 
+```sh
+Click on index.html
+Click on correction.html for the original
+```
+
 ## TP03
+```sh
+Click on index.html
+Click on correction.html for the original
+```
