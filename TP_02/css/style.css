@@ -1,0 +1,219 @@
+  @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+.container{
+width:62.5vw;/*1200px*/
+padding-left:0;
+margin:auto 0;
+margin-left:17.395833333333332vw;}
+header {
+  background-image: url(../img/woodPlank.jpg);
+  height:61.919504643962846vh;/*600px */
+}
+.navi {
+  float:right;
+}
+ul li {
+  list-style: none;
+  margin:0.625em; /* 10px*/
+  float:left;
+}
+a {
+  color:black;
+  text-decoration: none;
+  font-weight:bold;
+  text-transform: uppercase;
+
+}
+.titre {
+  font-family: "Caveat Brush", cursive;
+  font-weight:900;
+  font-size: 40px;
+  padding:0;
+  margin:0;
+  font-style: italic;
+  word-spacing: 15px;
+  text-transform: uppercase;
+}
+
+.h {
+  width: 18px;
+  height: 8px;
+  background: red;
+  margin-left: 38px;
+  margin-top: -4px;
+}
+.tes {
+  font-family: "Caveat Brush", cursive;
+  font-weight:900;
+  font-size: 24px;
+  text-decoration:underline;
+  margin-top: -56px;
+  padding-left: 28px;
+  text-transform: uppercase;
+}
+#triangle-code{
+opacity:0.6;
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 180px solid red;
+ border-left : 180px solid transparent;
+ position:absolute;
+ bottom: 51.59958720330237vh;
+ right: 47.916666666666664vw;
+}
+.cerf {
+  padding-left:22.96875vw;/*441px*/
+  padding-top:20.63983488132095vh;/*200px*/
+}
+.io{
+  color:red;
+  font-size:80px !important;
+  position:absolute;
+  bottom: 35.08771929824562vh;
+  right: 50.9375vw;
+}
+.os {
+    padding-top:10.319917440660475vh;
+    font-weight:bold;
+    font-size: 26px;
+    padding-left:2.8645833333333335vw;
+}
+.hd{
+  width: 2%;
+  height: 0.8255933952528379vh;
+  background: red;
+  margin-left: 8.333333333333334vw;
+  margin-top:  -2.889576883384933vh;
+}
+.los{
+    padding-top:2.579979360165119vh;
+    width:30%;
+    font-family: "Caveat Brush", cursive;
+}
+.imos{
+  width:40%;
+  position: absolute;
+  right: 18.802083333333332vw;
+  top: 62.745098039215684vh;
+}
+.imoap {
+  padding-top:157px;
+  width:70%;
+}
+.imflare {
+  padding-top: 220px;
+  float:right;
+  width:20%;
+}
+.soap {
+    font-weight:bold;
+    font-size: 26px;
+    position: absolute;
+    right:18.229166666666668vw;
+    top:134.15892672858618vh;
+}
+.hv {
+  width: 2%;
+  height: 0.8255933952528379vh;
+  background: red;
+  margin-top:-320px;
+  margin-left: 54.6875vw;
+}
+.loap {
+  position:absolute;
+  right:14.229166666666668vw;
+  top:146.15892672858618vh;
+  width:20%;
+  font-family: "Caveat Brush", cursive;
+}
+.toap {
+  font-size: 18px;
+  margin-top: 130px;
+  margin-left:1020px;
+  color:red;
+}
+.ld {
+  padding-top:1.679979360165119vh;
+  margin-top:200px;
+  font-weight:bold;
+  font-size: 22px;
+  padding-left:2.8645833333333335vw;
+}
+.hc {
+  width: 2%;
+  height: 0.8255933952528379vh;
+  background: red;
+  margin-left: 220px;
+  margin-top:-20px;
+}
+.lld {
+  padding-left:5.8645833333333335vw;
+  padding-top:1.679979360165119vh;
+  width:20%;
+  font-family: "Caveat Brush", cursive;
+}
+.imld{
+margin-top: -302px;
+  width:60%;
+  float:right;
+}
+.tld {
+  font-size: 18px;
+  margin-top: -6px;
+  padding-left:7.9645833333333335vw;
+  color:red;
+}
+.eggs {
+  width:100%;
+}
+footer {
+  padding-top:100px;
+}
+.fa-google {
+  position: absolute;
+  right:24%;
+  color:purple;
+}
+.fa-instagram {
+  position:absolute;
+  right:26%;
+  color:purple;
+}
+.fa-facebook-f{
+  position:absolute;
+  right:25%;
+  color:purple;
+}
+.fa-twitter{
+  position:absolute;
+  right:27%;
+  color:purple;
+}
+
+/*@media screen and (max-width: 625px) {
+  .cerf {
+    padding-left: 1.96875vw;
+    padding-top: 9.639835vh;
+}
+#triangle-code{
+  bottom: 45.59958720330237vh;
+  right: 30.916666666666664vw;
+}
+a {
+  color:black;
+  text-decoration: none;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+.imos{
+  position: absolute;
+  right: 2%;
+  top: 70.4%;
+  width:41.666666666666664vw;
+  height:51.083591331269346vh;
+}
+.os {
+  margin:0;
+  padding:0;
+}
+}

@@ -1,0 +1,163 @@
+  @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+  *{
+    margin:0;
+    padding:0;
+  }
+body {
+  font-family: "Caveat Brush", cursive;
+  background: rgb(177, 212, 177);
+}
+.container {
+  width:80%;
+  margin: 0 auto;
+  background: #fff;
+}
+header {
+  position: relative;
+  background: url(../img/woodPlank.jpg);
+}
+.nav {
+  top:40px;
+  right:25px;
+  position:absolute;
+}
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+.nav a {
+  margin: 30px;
+  font-size: 30px;
+  color: #000;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+.logoResto{
+  position: relative;
+  display: inline-block;
+  margin-left: 80px;
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.logo span{
+  font-size: 40px;
+  display: inline;
+  vertical-align: top;/* alignement vertical de l'élément */
+  position: relative;
+}
+.logo span::after {/*pseudo class "after" sert à ajouter du contenu après l'élément(:before)*/
+  position: absolute;
+  top:15px;
+  left: 0;
+  content: "_";
+}
+.inline {
+  display: inline-block;
+}
+#logo {
+  width:300px;
+  margin: auto;
+  position: relative;
+  margin-top:250px;
+  padding-bottom:250px;
+}
+#logo div {
+  width:0;
+  height:0;
+  border-top: 250px solid #e53f6f;
+  border-left: 250px solid transparent;
+}
+#logo img {
+  width:100%;
+  top: -27px;
+  position: absolute;
+
+}
+i {
+  margin-top: 5vw;
+  display: inline-block;
+  font-style: normal;
+  position: relative;
+}
+i#fleche {
+  top:4vw;
+  left: -7vw;
+  width: 3.4em;
+  height: 3.4em;
+  border-right: 0.3em solid #e53f6f;
+  border-top: 0.3em solid #e53f6f;
+  transform: rotate(134deg);
+}
+.rectRose{
+  width:0;
+  top:65px;
+  left:26%;
+  margin: 0;
+  display: block;
+  padding: 0 17px;
+  border: 7px solid #e53f6f;
+  position: absolute;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+#story h2 {
+  font-size: 55px;
+}
+section .rectRose {
+  position: inherit;
+  margin: auto;
+  left: 0;
+  bottom: 15px;
+}
+section img {
+  width:100%;
+}
+section > section {/* cible les enfants directs de section, les autres sections qui sont des sous-enfants seront ignorés*/
+  overflow: hidden;
+  height:58vh;
+  text-align: center;
+}
+section p, section h2 {
+  padding: 0 10%;
+}
+.left, .right {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.left {
+  width: 40%;
+  overflow:visible;
+  position: relative;
+}
+.left img {
+
+}
+.right{
+  width:59.76%;
+  padding:0;
+  margin:0
+}
+#story img {
+transform: scaleX(-1);
+}
+#fare .left {
+width:69.76%;
+}
+#fare .right {
+width:30%;
+}
+#drink .left img{
+  position: relative;
+  top: 70px;
+  z-index: -1;
+}
+#eggs {
+  width:100%;
+}
