@@ -2,7 +2,7 @@
 > List of practical work(travaux pratiques in french) I did during my web training at LePoleS, it was my first experience as a developer, be indulgent
 
 ## TP02
-Integration of the model of the restaurant Tonight set up a correct file hierarchy. The list is exhaustive, use only what is necessary for you.
+Integration of the model of the restaurant "Ce soir" set up a correct file hierarchy. The list is exhaustive, use only what is necessary for you.
 
 project > [img] > [css] > style.css [elements] > jQuery other [js] index
 
