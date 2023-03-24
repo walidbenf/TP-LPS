@@ -1,0 +1,123 @@
+/* Style global */
+body{
+    background: linear-gradient(to bottom, #ddd, #fff);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style header */
+.logo{
+    position: relative;
+    left: 7%;
+    bottom: 23%;
+}
+
+.col-md-6 .lead{
+    color: deeppink;
+    bottom: 29%;
+    position: relative;
+}
+
+.col-md-3 h4 {
+    color: aqua;
+}
+
+.col-md-3 span{
+    bottom: 17%;
+    position: absolute;
+    top: 26%;
+    left: 26%;
+}
+
+.col-md-3 p{
+    color: rgb(148, 144, 144);
+    font-size: 12px;
+}
+
+.account{
+    width: 495px;
+    height: 12vh;
+    color: #fff;
+    background: rgb(50, 231, 231);
+}
+
+.compte, .account p{
+    color: #fff !important;
+}
+
+hr{
+    background: #fff;
+    width: 495px;
+    margin-left: -6%;
+}
+
+/* Style nav */
+nav{
+    width: 88%;
+}
+
+nav ul{
+    color: #fff;
+    height: 5vh;
+    line-height: 3;
+}
+
+nav ul li{
+    padding-right: 1%;
+    margin-left: 5%;
+}
+
+nav ul li:first-child{
+    background: deeppink;
+}
+
+/* Style div contenu */
+.t{
+    border-right: 2px solid #cccccc;
+}
+
+.b h3{
+    padding: 1%;
+    color: aqua;
+}
+
+.bloc2{
+    border: 1px solid #cccccc;
+    margin-right: 2%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-bottom: 4%;
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+.bloc2 h4{
+    width: 110%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    font-weight: 900;
+    text-align: center;
+    background: #cccccc;
+    position: relative;
+    right: 5%;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.bloc2 a{
+    float: right;
+}
+
+/* Style footer */
+footer{
+    height: 5vh;
+    color: #fff;
+    line-height: 3;
+}
+
+footer ul{
+    margin-left: 5%;
+}
