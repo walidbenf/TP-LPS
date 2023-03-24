@@ -22,7 +22,7 @@ Click on correction.html for the original
 
 
 ### TP02
-Integration of the model of the restaurant "Ce soir". 
+Integration of the model of the restaurant "Ce soir". \
 You will find textures for the background of the header here: [cg_texture](http://www.textures.com/browse/bare/45356).
 
 The images are in the img folder.
@@ -35,5 +35,5 @@ The images are in the img folder.
 
 ### TP04
 Integration of the model of the shop "Licorne".
-The images are in the img folder.
+The images are in the img folder. \
 PDF with instructions in folder.
