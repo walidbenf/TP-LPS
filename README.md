@@ -3,7 +3,7 @@
 
 # TP's rules
 ##### set up a correct file hierarchy. The list is exhaustive, use only what is necessary for you.
-
+```sh
 ├── project
 │   ├── css
 │   │   ├── **/*.css
@@ -12,6 +12,7 @@
 │   ├── js
 │   │   ├── **/*jquery and other
 │   ├── index.html
+```
 
 ### TP02
 Integration of the model of the restaurant "Ce soir" 
@@ -30,5 +31,4 @@ Integration of the model of the shop "Ma Boutique"
 ```sh
 Click on index.html(or put it in your browser)
 Click on correction.html for the original
-```
 ```
