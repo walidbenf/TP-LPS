@@ -3,8 +3,6 @@
 
 ## TP02
 Intégration de la maquette du restaurant *Ce soir*
-![maquette](maquette.jpg)
-
 mettre en place une hierarchie de dossier correcte.
 La liste est exaustive, n'utiliser que ce qui vous est necessaire.
 
