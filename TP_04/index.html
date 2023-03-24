@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <title></title>
+</head>
+
+<body>
+
+  <!--On crée un header et une classe à l'intérieur qui permet de styliser le titre du header-->
+  <div class="container-fluid">
+    <header>
+
+      <div class="titre">MyUnicorn</div>
+      <nav>
+        <ul>
+
+          <li><a href="">Le principe</a></li>
+          <li><a href="">Nos licornes</a></li>
+          <li><a href="">Nous trouver</a></li>
+
+        </ul>
+      </nav>
+
+    </header>
+
+    <!--Création d'une section entre le header et le container qui permet de bien séparer les deux -->
+
+    <section class="arc">
+      <h1>Un jour, une licorne</h1>
+
+      <center><img src="img/rainbow.png" alt=""></center>
+
+    </section>
+
+    <!-- Création d'une section all qui permet de définir un background différent du body et de faire une bordure et création de 3 sections qui permettent de séparer la section en 3 partie-->
+
+    <section class="all container">
+
+      <section class="principe">
+
+        <div class="row">
+          <div class="col">
+
+            <h2><i class="far fa-star"></i> Le principe</h2>
+            <p class=t>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque tempore maxime cupiditate iusto quo odit nam! Consequuntur magnam, nihil. Vel quam quibusdam dolorum quia cumque ipsum consequatur odit sit nemo! Lorem ipsum
+              dolor
+              sit
+              amet, consectetur adipisicing elit. Optio, tempora, cum. Quod fugit perferendis nostrum, pariatur, veniam nesciunt, maxime praesentium commodi optio mollitia beatae! Tempore, amet, quidem. Natus, dolorem vero.</p>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section class="licorne">
+
+        <div class="row">
+          <div class="col">
+
+            <h2> <i class="far fa-star"></i> Nos licornes</h2>
+
+            <!--Création de figures qui permettent de mettre un figcaption-->
+
+            <figure><img src="img/unicorns/photo1.jpg" alt="" height="200" width="200">
+              <figcaption>Lulu Confetty</figcaption>
+            </figure>
+            <figure><img src="img/unicorns/photo2.jpg" alt="" height="200" width="200">
+              <figcaption>Lapillon Magik</figcaption>
+            </figure>
+            <figure><img src="img/unicorns/photo3.jpg" alt="" height="200" width="200">
+              <figcaption>El Ninjacorn</figcaption>
+            </figure>
+            <figure><img src="img/unicorns/photo4.jpg" alt="" height="200" width="200">
+              <figcaption>Sweety Candy</figcaption>
+            </figure>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section class="map">
+        <h2> <i class="far fa-star"></i> Nous trouver</h2>
+
+        <!-- Création d'une classe left et right pour faire flotter une div à gauche et à droite-->
+        <div class="row">
+          <div class="col">
+
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10500.749867690434!2d2.3563028!3d48.8546355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2bbd365849898f2!2sEcole+Webforce3!5e0!3m2!1sfr!2sfr!4v1544607025336" width="600"
+                height="450" frameborder="0" style="border:0" allowfullscreen>
+              </iframe>
+            </div>
+
+            <div class="right">
+              <h4>Notre élevage de licornes est situé au :</h4>
+              <p>18 Rue Geoffroy l'Asnier<br>
+                75004 Paris<br>01.23.45.67.89</p>
+
+              <h4>Newsletter</h4>
+              <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+
+              <form>
+                <input type="email" name="email" id="email" autofocus required><br>
+                <label for="Valider"></label>
+                <input type="submit" value="Valider" name="Valider" id="Valider">
+                <br>
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+    </section>
+
+    <!--Création du footer et d'une class copy qui permet de faire flotter le texte à droite-->
+  </div>
+
+  <footer>
+
+    <p class="copy">2018©WebForce3</p>
+
+  </footer>
+
+</body>
+
+</html>

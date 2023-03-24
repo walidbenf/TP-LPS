@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/correction.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+
+</head>
+
+<body>
+  <!--Container principal peut-être une div, section, main-->
+  <header>
+    <div class="logo">
+      <h1><a href="#">MyUnicorn</a></h1>
+    </div>
+
+    <nav class="nav">
+      <!-- Crée 2 division pour le logo et la navigation-->
+
+      <div class="navigation">
+        <!-- Menu avec ancres-->
+        <ul>
+          <li><a href="#intro">Le principe</a></li>
+          <li><a href="#list">Nos licornes</a></li>
+          <li><a href="#contact">Nous trouver</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div id="page">
+      <div class="container">
+        <h1>Un jour,une licorne</h1>
+        <!--Section corps de la page-->
+        <div class="block-white">
+
+          <section id="intro">
+            <h2><i class="far fa-star"></i>Le principe</h2>
+
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error pariatur perferendis, atque ratione dolores quia? Sapiente quas dignissimos blanditiis accusantium non veniam cupiditate mollitia quisquam vitae eius, doloremque ullam
+                quidem!</p>
+            </div>
+          </section>
+
+          <section id="list">
+            <h2><i class="far fa-star"></i>Nos licornes</h2>
+            <div class="blocImage">
+
+              <div class="item-unicorn">
+                <figure>
+                  <img src="img/unicorns/photo1.jpg" alt="Lulu Confetty">
+                  <figcaption>Lulu Confetty</figcaption>
+                </figure>
+              </div>
+
+              <div class="item-unicorn">
+                <figure>
+                  <img src="img/unicorns/photo2.jpg" alt="">
+                  <figcaption>Lapillon Magik</figcaption>
+                </figure>
+              </div>
+
+              <div class="item-unicorn">
+                <figure>
+                  <img src="img/unicorns/photo3.jpg" alt="">
+                  <figcaption>El Ninjacorn</figcaption>
+                </figure>
+              </div>
+
+              <div class="item-unicorn">
+                <figure>
+                  <img src="img/unicorns/photo4.jpg" alt="">
+                  <figcaption>Sweety Candy</figcaption>
+                </figure>
+              </div>
+
+            </div>
+            <!--Fin div blocImage-->
+          </section>
+
+          <section id="contact">
+            <h2><i class="far fa-star"></i>Nous trouver</h2>
+            <div class="blocImage">
+            <div class="maps">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10500.749867690434!2d2.3563028!3d48.8546355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2bbd365849898f2!2sEcole+Webforce3!5e0!3m2!1sfr!2sfr!4v1544607025336" width="600"
+                height="450" frameborder="0" style="border:0" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="info">
+              <h3>Notre élevage de licornes est situé au :</h3>
+              <p>18 Rue Geoffroy L'asnier <br>
+                75004 Paris <br>
+                01.23.45.67.89</p>
+              <h3>Newsletter</h3>
+              <form action="">
+                <input type="email" name="email" placeholder="email@exemple.com" required>
+                <br>
+                <input type="submit" value="Valider">
+              </form>
+            </div>
+            </div>
+          </section>
+        </div><!-- Fin de div block-white -->
+      </div><!-- Fin de div container-->
+    </div><!-- Fin de div #page-->
+
+  </main>
+  <footer>
+    2018 &copy Webforce3
+  </footer>
+</body>
+
+</html>
