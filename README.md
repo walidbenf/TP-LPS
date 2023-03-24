@@ -2,29 +2,16 @@
 > List of practical work(travaux pratiques in french) I did during my web training at LePoleS, it was my first experience as a developer, be indulgent
 
 ## TP02
-Intégration de la maquette du restaurant *Ce soir*
-mettre en place une hierarchie de dossier correcte.
-La liste est exaustive, n'utiliser que ce qui vous est necessaire.
+Integration of the model of the restaurant Tonight set up a correct file hierarchy. The list is exhaustive, use only what is necessary for you.
 
-  projet >
-    [img]>
-    [css]>
-      style.css
-    [elements]>
-      jQuery
-      autre
-    [js]
-    index
+project > [img] > [css] > style.css [elements] > jQuery other [js] index
 
-Vous trouverez des textures pour le background du header ici :
-  [cg_texture](http://www.textures.com/browse/bare/45356)
+You will find textures for the background of the header here: [cg_texture](http://www.textures.com/browse/bare/45356)
 
-
-* Les images sont dans le dossier img. A ré-aranger dans la hierarchie.
-* Pour le log vous utiliserez le fichier cerf.svg
-
+The images are in the img folder. To be rearranged in the hierarchy.
+For the log you will use the file cerf.svg
+Well done !
 Bon travail !
-
 ```sh
 Click on index.html(or put it in your browser)
 Click on correction.html for the original
