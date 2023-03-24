@@ -35,4 +35,4 @@ The images are in the img folder.
 ### TP04
 Integration of the model of the shop "Licorne". \
 The images are in the img folder. \
-PDF with instructions in folder.
+PDF subject in folder.
