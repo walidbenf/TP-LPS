@@ -12,6 +12,7 @@
 │   ├── js
 │   │   ├── **/*jquery and other
 │   ├── index.html
+
 ### TP02
 Integration of the model of the restaurant "Ce soir" 
 You will find textures for the background of the header here: [cg_texture](http://www.textures.com/browse/bare/45356)
