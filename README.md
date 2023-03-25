@@ -43,11 +43,14 @@ PDF subject in folder.
 Make a website about myself with contact page.
 
 ### TP06
-Make a gite rental site(only index page)
+Make a gite rental site(only index page).
 
 ### TP07
-Make a site with images effects(the goal is to learn style like hover,icons etc... whitout bootstrap)
+Make a site with images effects(the goal is to learn style like hover,icons etc... whitout bootstrap).
 
 ### TP08
 Integration of the model of the website "Jurassic World". \
 The images are in the img folder. \
+
+### TP09
+Make a website about myself like TP05 but more stylish.
