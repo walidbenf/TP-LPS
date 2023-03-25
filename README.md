@@ -38,4 +38,4 @@ The images are in the img folder. \
 PDF subject in folder.
 
 ### TP05
-Make a website about my self with contact page.
+Make a website about myself with contact page.
