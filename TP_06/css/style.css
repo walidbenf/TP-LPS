@@ -1,0 +1,221 @@
+/* Style global*/
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+header {
+  font-family: 'Courgette', cursive;
+  background: url(../img/pattern.jpg);
+  height: 150px;
+  width: 100% !important;
+}
+
+.wave {
+  background: url(../img/header_haut.png);
+  background-repeat: repeat-x;
+  height: 70px;
+  margin-top: -58px;
+}
+
+.nav {
+  background: #ADC54F;
+  margin-top: 15px !important;
+  margin: auto;
+  padding: auto;
+}
+
+.nav li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav li a:hover {
+  color: #000;
+}
+
+.nav li {
+  color: #fff;
+}
+
+.gite {
+  /*background:url(../img/demi-rond.png) no-repeat;*/
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.arc {
+  position: absolute;
+  right: 44.3%;
+  top: 0%;
+  opacity: 0.3;
+}
+
+#mid {
+  background: url(../img/pattern2.jpg) no-repeat;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-size: 5% 94%;
+}
+
+.image {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  margin-top: -11px;
+  border: 1px dashed #000;
+  border-radius: 2%;
+  width: 875px;
+  height: 620px;
+  background: #fff;
+}
+
+.image img {
+  margin-top: 10px;
+}
+
+.pres {
+  width: 12%;
+  background: #fff;
+  position: absolute;
+  top: 15%;
+  right: 15.2%;
+  opacity: 0.8;
+  height: 40%;
+}
+
+h4, p {
+  opacity: 1 !important;
+}
+
+.p2 {
+  margin-left: 20px;
+}
+
+.h42 {
+  color: #5E1737 !important;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.h4 {
+  text-align: center;
+  border: 1px solid #5E1737;
+  border-radius: 6%;
+  text-decoration: none;
+  list-style: none;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.h4 a {
+  text-decoration: none !important;
+  list-style: none !important;
+  color: #5E1737 !important;
+}
+
+#mid-bot {
+  margin: auto;
+  padding: auto;
+}
+
+.image2 {
+  width: 18%;
+  position: absolute;
+  right: 28%;
+  top: 65%;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  border-radius: 8%;
+  background: #fff;
+}
+
+.fas {
+  text-align: left;
+  float: left;
+}
+
+.rightli {
+  position: absolute;
+  right: -34%;
+  top: 32%;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 55%;
+}
+.rightlii:nth-child(2) {
+  position: absolute;
+  right: -34%;
+  top: 32%;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 55%;
+}
+.rightli li {
+  font-weight: bold;
+  position: relative;
+  background: #88b7d5;
+  border: 4px solid #c2e1f5;
+}
+
+.rightli li:after, .rightli li:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.rightli li:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #88b7d5;
+  border-width: 30px;
+  margin-top: -30px;
+}
+
+.rightli li:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: #c2e1f5;
+  border-width: 36px;
+  margin-top: -36px;
+}
+
+.rightli li:first-child {
+  background: #5AA3A3;
+}
+
+.rightli li:nth-child(2) {
+  background: #879180;
+}
+
+.rightli li:nth-child(3) {
+  background: #4C1B2F;
+}
+
+.image3 {
+  width: 18%;
+  position: absolute;
+  right: 54%;
+  top: 65%;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  border-radius: 8%;
+  background: #fff;
+}
+
+.mage2, .mage3 {
+  border: 3px solid #4F394F;
+  border-radius: 8%;
+  margin-left: 10px;
+}
+
+.h43, .p3 {
+  margin-left: 10px;
+}
+
+.h43 {
+  color: #4F394F;
+}
