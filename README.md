@@ -39,3 +39,6 @@ PDF subject in folder.
 
 ### TP05
 Make a website about myself with contact page.
+
+### TP06
+Make a gite rental site(only index page)
