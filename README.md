@@ -2,7 +2,7 @@
 # TP's list
 > List of practical work(travaux pratiques in french) I did during my web training at LePoleS(2018), 
 > it was my first experience as a developer, be indulgent
-> the objective is to redo a model as best as possible in a <span style="color:red"> *red* limited time</span> (and sometimes without the same tools)
+> the objective is to redo a model as best as possible in a <span style="color:red"> *red*limited time</span> (and sometimes without the same tools)
 > so sometimes my work will be different and/or less good than the original.
 
 # TP's rules
