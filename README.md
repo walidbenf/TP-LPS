@@ -33,6 +33,6 @@ Integration of the model of the shop "Ma Boutique". \
 The images are in the img folder.
 
 ### TP04
-Integration of the model of the shop "Licorne". \
+Integration of the model of the website "Licorne". \
 The images are in the img folder. \
 PDF subject in folder.
