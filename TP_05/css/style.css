@@ -1,0 +1,178 @@
+/*Style général */
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+body {
+  font-family: 'Charm', cursive;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+header {
+  height: 100px;
+}
+
+footer {
+  height: 80px;
+  padding-top: 30px;
+  text-align: center;
+  background: #C5c5c5;
+  border-top: 2px solid #aaa;
+}
+
+/* Navigation */
+nav li {
+  list-style: none;
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  background: #424558;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+.menu-ind:hover {
+  border-top: 5px solid #4c8;
+  background: rgba(64, 200, 130, 0.15);
+}
+
+.menu-exp:hover {
+  border-top: 5px solid #f1dc4f;
+  background: rgba(241, 211, 79, 0.15);
+}
+
+.menu-loi:hover {
+  border-top: 5px solid #0070bb;
+  background: rgba(000, 112, 192, 0.15);
+}
+
+.menu-con:hover {
+  border-top: 5px solid #e44d26;
+  background: rgba(228, 77, 38, 0.15);
+}
+
+nav li:hover a {
+  padding: 15px 30px 20px 30px;
+}
+
+/*Page index */
+section {
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.sec {
+  margin: 0 10px;
+}
+
+.gauche {
+  float: left;
+  width: 30%;
+}
+
+.droite {
+  float: left;
+  width: 70%;
+}
+
+.cgauche, .cdroite, .sousgauche, .sousdroite {
+  width: 50%;
+  float: left;
+}
+
+.sec::after, .exp::after, .reco::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#presentation {
+  border-top: 5px solid #4c8;
+  background: rgba(64, 200, 130, 0.15);
+}
+
+#parcours, #pex {
+  border-top: 5px solid #f1dc4f;
+  background: rgba(241, 211, 79, 0.15);
+  padding-bottom: 50px;
+}
+
+#competences, #loisir {
+  border-top: 5px solid #0070bb;
+  background: rgba(000, 112, 192, 0.15);
+}
+
+#recommandation, #contact {
+  border-top: 5px solid #e44d26;
+  background: rgba(228, 77, 38, 0.15);
+}
+
+#contact, #loisir, #pex {
+  padding-bottom: 35px;
+}
+
+img {
+  width: 300px;
+}
+
+.cntct {
+  text-align: center;
+}
+
+h2, .pex {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: #e44d26;
+  border: 1px solid #e44d26;
+  border-radius: 10%;
+  color: #fff;
+}
+
+@media screen and (max-width:500px) {
+  header {
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 20px 0 0 0;
+  }
+
+  nav li a {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  nav li:hover {
+    padding: 5px 10px 10px 10px;
+  }
+}
