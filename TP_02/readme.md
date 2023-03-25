@@ -1,4 +1,4 @@
-# Intégration
+# Instructions
 
 Intégration de la maquette du restaurant *Ce soir*
 ![maquette](maquette.jpg)
