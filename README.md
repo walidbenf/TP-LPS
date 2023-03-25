@@ -2,7 +2,7 @@
 > List of practical work(travaux pratiques in french) I did during my web training at LePoleS(2018), 
 > it was my first experience as a developer, be indulgent
 > the objective is to redo a model as best as possible in a limited time (and sometimes without the same tools)
-> so sometimes my work will be different and/or less good than the original
+> so sometimes my work will be different and/or less good than the original.
 
 # TP's rules
 ##### set up a correct file hierarchy. The list is exhaustive, use only what is necessary for you.
