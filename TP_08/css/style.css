@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+
+/*Style global */
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+.dino {
+  background-image: url(../img/dinosaure.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1873px;
+  height: 1280px;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  height: 50px;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+
+.en {
+  color: darkgrey;
+}
+
+.bout {
+  background-color: #1C5F81;
+  border-color: #1C5F81;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bout:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1C5F81;
+}
+
+.bout2 {
+  margin-top: 30px;
+}
+
+.climat {
+  position: absolute;
+  right: 0%;
+  bottom: 11%;
+}
+
+.dino2 {
+  padding: 0;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.title1 {
+  margin-top: 50px;
+  font-family: 'Diplomata SC', cursive;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.ent {
+  transition: transform .2s
+}
+
+.ent:hover {
+  transform: scale(1.2);
+}
+
+.lorem {
+  width: 70%;
+  padding: 0;
+  margin: auto;
+}
+
+.jurassic, .jurassic2 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.courez {
+  font-size: 18px;
+  color: black;
+}
+
+.dino3 {
+  padding-top: 80px;
+  margin: auto;
+  width: 50%;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.far, .fa-car {
+  font-size: 20px;
+}
+
+.col {
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  width: 100%;
+}
+
+.partner {
+  margin-top: 100px;
+}
+
+footer {
+  margin-top: 80px;
+  background: #000;
+  height: 400px;
+  width: 100%;
+}
+
+.footul {
+  list-style-type: none;
+  margin-top: 180px;
+  margin-left: 250px;
+}
+
+.footul li a {
+  color: #fff;
+}
+
+.lg2 {
+  margin-top: 130px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+.bouton {
+  color: #fff !important;
+}
+@media (max-width: 1680px) {
+  .dino {
+    background-size: 1600px;
+    height: 1100px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .dino {
+    background-size: 1400px;
+    height: 960px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .dino {
+    background-size: 1000px;
+    height: 690px;
+  }
+
+  .loge {
+    width: 720px;
+    height: 500px;
+  }
+
+  .ent {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dino {
+    background-size: 768px;
+    height: 530px;
+  }
+
+  .loge {
+    width: 680px;
+    height: 480px;
+  }
+
+  .ent {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 414px) {
+  * {
+    font-size: 12px;
+  }
+
+  .dino {
+    background-size: 400px;
+    height: 275px;
+  }
+
+  .loge {
+    width: 260px;
+    height: 180px;
+  }
+
+  .ent {
+    width: 200px;
+    height: 150px;
+  }
+
+  .title1 {
+    font-size: 22px;
+  }
+  .lorem {
+    width:100%;
+  }
+  iframe{
+    width:260.5%;
+  }
+  .taille {
+    width:80px;
+    height:30px;
+  }
+  .lg2{
+    width:110px;
+    height:70px;
+    margin:0;
+    margin-top:60px;
+  }
+  .footul {
+    margin:0;
+    margin-top:20px;
+  }
+  footer {
+    height: 170px;
+  }
+}
+@media (max-width: 320px){
+  * {
+    font-size: 10px;
+  }
+
+  .title1 {
+    font-size: 16px;
+  }
+  .ent {
+    width: 150px;
+    height: 120px;
+  }
+}

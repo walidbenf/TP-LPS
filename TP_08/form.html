@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="fluid">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class=" navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">L'exposition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Infos pratiques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Avis</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Presse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FR|<span class="en">EN</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html">
+                  <button type="button" class="bout"><i class="fas fa-ticket-alt"></i> Billetterie</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!--  <ul class="nav justify-content-center fixed-top">
+          <li class="nav-item">
+            <a class="nav-link" href="#">L'exposition</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Infos pratiques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Avis</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Presse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FR|<span class="en">EN</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">
+              <button type="button" class="bout"><i class="fas fa-ticket-alt"></i> Billetterie</button>
+            </a>
+          </li>
+        </ul>-->
+      </header>
+    </div>
+    <form>
+      <fieldset class="name">
+        <legend>Nom et prénom</legend>
+        <label for "name">Nom:</label>
+        <input type="text" name="name" id="name" autofocus required>
+        <br>
+        <label for "name">Prénom:</label>
+        <input type="text" name="name" id="name" autofocus required>
+        <br>
+      </fieldset>
+
+      <fieldset class="account">
+        <legend>Compte</legend>
+        <label for "name">Pseudo:</label>
+        <input type="text" name="name" id="name" autofocus required>
+        <br>
+        <label for "password">Mot de passe:</label>
+        <input type="password" name="password" id="password" autofocus required>
+        <br>
+        <label for"email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+      </fieldset>
+
+      <fieldset class="born">
+        <legend>Date et Heure</legend>
+        <label for "hour">Date et Heure:</label>
+        <input type="datetime-local" name="hour" id="hour" required>
+      </fieldset>
+      <fieldset class="info">
+        <legend>Informations complémentaires</legend>
+        <label for="radio">Homme:</label>
+        <input type="radio" name="radio" id="radio" value="homme" checked>
+        <label for="radio">Femme:</label>
+        <input type="radio" name="radio" id="radio" value="femme">
+        <br>
+        <label for="select">Pays:</label>
+        <select name="select" id="select">
+          <option>Selectionner un pays</option>
+          <optgroup label="Europe">
+            <option value="France" selected>France</option>
+            <option value="Allemagne">Allemagne</option>
+            <option value="Belgique">Belgique</option>
+          </optgroup>
+
+          <optgroup label="Afrique">
+            <option value="Mauritanie">Mauritanie</option>
+            <option value="Mali">Mali</option>
+            <option value="Gabon">Gabon</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <label for="Envoyer"></label>
+      <input type="submit" value="Envoyer" name="Envoyer" id="Envoyer">
+      <br>
+  </div>
+</body>
+
+</html>

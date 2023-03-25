@@ -1,0 +1,121 @@
+body {
+  background-image: url(../img/dinosaure.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+form {
+  margin-top: 120px;
+}
+
+label {
+  color: #1C5F81;
+  width: 100px;
+  display: inline-block;
+  padding: 10px 0 15px 40px;
+}
+
+fieldset {
+  background: rgba(0, 0, 0, 0.7);
+  width: 40%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 20px;
+  border-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+legend {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  background: #1C5F81;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #1C5F81;
+  border-color: #1C5F81;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 20px;
+  width: 220px;
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1C5F81;
+}
+
+input:focus {
+  border: 5px double #1C5F81;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 150px;
+  }
+  select {
+    width:100px;
+  }
+  legend {
+    font-size:16px;
+  }
+  input[type="submit"] {
+    width: 160px;
+    height: 30px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  input {
+    width: 125px;
+  }
+  select {
+    width:100px;
+  }
+  legend {
+    font-size:14px;
+  }
+  input[type="submit"] {
+    width: 140px;
+  }
+}
+@media (max-width: 380px) {
+  input {
+    width: 100px;
+  }
+  select {
+    width:100px;
+  }
+  legend{
+    font-size:12px;
+  }
+  input[type="submit"] {
+    width: 120px;
+  }
+}

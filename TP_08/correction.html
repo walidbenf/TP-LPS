@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JurrassicWorld</title>
+  <!-- Style Bootstrap + FontAwesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="css/correction.css">
+  <!-- Script Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Cette mise en page utilise essentiellement les grilles(grid) de Bootstrap -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navigation fixed-top" id="mainNav">
+    <div class="container">
+      <!-- Menu en mode mobile -->
+      <button class="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navabarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars"></i>
+          menu
+        </span>
+      </button>
+      <!-- On centrer la navigation grâce à la classe offest de bootstrap -->
+      <div class="collapse navbar-collapse col-md-10 offset-md-1" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto menu">
+          <li class="nav-item"><a href="#presentation" class="nav-link js-scroll trigger">l'exposition</a></li>
+          <li class="nav-item"><a href="" class="nav-link js-scroll trigger">infos pratique</a></li>
+          <li class="nav-item"><a href="" class="nav-link js-scroll trigger">faq</a></li>
+          <li class="nav-item"><a href="" class="nav-link js-scroll trigger">avis</a></li>
+          <li class="nav-item"><a href="" class="nav-link js-scroll trigger">press</a></li>
+          <li class="nav-item"><a href="" class="nav-link js-scroll trigger">fr | en</a></li>
+        </ul>
+        <!-- Ici on utilise la classe float-right pour mettre le bouton à droite -->
+        <a href="reservation.html" class="btn btn-primary float-right billeterie" role="button">
+          <i class="fas fa-ticket-alt fa-lg"></i>
+          billeterie
+        </a>
+      </div><!-- Fin collapse -->
+    </div><!-- Fin container -->
+  </nav><!-- Fin navbar -->
+  <header class="bg">
+    <div class="container text-center">
+      <img class="logo" src="img/logo.png" alt="Logo Jurrassic World">
+      <img class="ruban" src="img/climatise.png" alt="Ruban climatisation">
+    </div>
+  </header>
+  <section id="presentation">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>regarder un dinosaure dans les yeux !</h2>
+          <img src="img/entree.png" alt="Entree du parc" class="entree mb-3">
+          <p>
+            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipisicing elit. Ullam magnam pariatur non esse, nulla voluptas doloremque placeat saepe velit tempora vel odio ipsa quidem labore ex animi, voluptate obcaecati rem?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam pariatur non esse, nulla voluptas doloremque placeat saepe velit tempora vel odio ipsa quidem labore ex animi, voluptate obcaecati rem?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Ullam magnam pariatur</strong> non esse, nulla voluptas doloremque placeat saepe velit tempora vel odio ipsa quidem labore ex animi, voluptate obcaecati rem?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam pariatur non esse, <strong>nulla voluptas doloremque</strong> placeat saepe velit tempora vel odio ipsa quidem labore ex animi, voluptate obcaecati rem?
+          </p>
+          <div class="text-center mb-5">
+            <p class="adresse">
+              Jurassic World: un voyage à vous coupez le souffle! Du 14 avril au 2 Septembre 2018 à la cité du cinéma Paris/Saint-Denis
+            </p>
+          </div>
+          <div class="text-center">
+            <p class=" adresse">
+              Réservez vos place dès aujourd'hui, et souvenez-vous... si quelque chose vous poursuit, <strong>COUREZ !!</strong>
+            </p>
+            <a href="reservation.html" class="btn btn-primary billeterie offset-md-5" role="button">
+              reserver
+            </a>
+          </div><!-- Fin text-center-->
+        </div><!-- Fin col-lg-8 -->
+      </div><!-- Fin row -->
+    </div><!-- Fin container-->
+  </section><!-- Fin presentation -->
+  <section id="informations" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm mx-auto info">
+          <h3><i class="far fa-credit-card"></i> tarifs</h3>
+          <ul class="liste">
+            <li>Adulte: <strong>19.90 €</strong></li>
+            <li>Enfant(moins de 11ans): <strong>15.90 €</strong></li>
+            <li>Famille(2 adultes + 2 enfants): <strong>64.90 €</strong></li>
+            <li>Audioguide: <strong>5 €</strong></li>
+          </ul>
+          <p>
+            Possibilité de reserver un billet coupe file prioritaire par tranche horaires de 30mn.
+          </p>
+          <div class="text-md-left">
+            <a href="reservation.html" class="btn btn-primary billeterie offset-md-5" role="button">
+              acheter en ligne
+            </a>
+          </div>
+        </div>
+      </div><!-- Fin info -->
+      <div class="col-sm mx-auto mt-5">
+        <h3><i class="fas fa-bus-alt"></i>comment venir?</h3>
+        <p class="lead">Cité du cinéma 20 Rue Ampère 93200 saint-Denis</p>
+        <ul class="liste">
+          <li><strong>En métro</strong>M13(Carrefour Pleyel)</li>
+          <li><strong>En bus</strong>Ligne 139(Arrêt Rue Ampère)</li>
+          <li><strong>En voiture</strong>Via A1 ou A86</li>
+        </ul>
+        <div class="carte">
+          <iframe src="" frameborder="0"></iframe>
+        </div><!-- Fin col-sm -->
+      </div><!-- Fin row -->
+    </div><!-- Fin container -->
+  </section>
+  <!--Fin informations -->
+
+  <section id="presse">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto text-center">
+          <h3></h3>
+          <ul class="list-inline">
+            <li class="list-inline-item partner-item"><img src="img/tf1.png" alt=""></li>
+            <li class="list-inline-item partner-item"><img src="img/bfm.png" alt=""></li>
+            <li class="list-inline-item partner-item"><img src="img/jdd.png" alt=""></li>
+            <li class="list-inline-item partner-item"><img src="img/rtl.png" alt=""></li>
+          </ul>
+        </div><!-- Fin col-lg-12 -->
+      </div><!-- Fin row -->
+    </div><!-- Fin container -->
+  </section><!-- Fin presse -->
+
+  <footer class="py-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <ul class="list-inline">
+            <li class="list-inline-item partner-item"><img src="img/logo-vhe.png" alt="" class="logo-partenaire"></li>
+            <li class="list-inline-item partner-item"><img src="img/logo-cityneon.png" alt="" class="logo-partenaire"></li>
+            <li class="list-inline-item partner-item"><img src="img/logo-fimalac.png" alt="" class="logo-partenaire"></li>
+            <li class="list-inline-item partner-item"><img src="img/logo-universal" alt="" class="logo-partenaire"></li>
+          </ul>
+          <p>TM & © Universal Studios et Amblin. Jurassic World est une marque déposée par Universal Studios et Amblin Entertainment, Inc. Tous droits réservés.
+          </p>
+          <ul class="liste-menu-footer">
+            <li><a href="">Mentions légales</a></li>
+            <li><a href="">Conditions Générales d'Utilisations</a></li>
+            <li><a href="">Politique de confidentialité</a></li>
+            <li><a href="">Cookies</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div><!-- Fin col-sm -->
+        <div class="col-sm">
+          <ul class="list-inline menu-footer text right">
+            <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f fa-2x"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div><!-- Fin row -->
+    </div><!-- FIn container -->
+
+  </footer><!-- Fin footer -->
+
+</body>
+
+</html>
