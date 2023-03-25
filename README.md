@@ -17,7 +17,7 @@
 ## Installation
 ```sh
 Click on index.html(or put it in your browser)
-Click on correction.html for the original
+Click on correction.html(when there is one) for the original
 ```
 
 
