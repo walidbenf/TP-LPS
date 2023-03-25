@@ -1,0 +1,154 @@
+html, body, .cbg {
+  background-color: #EDEDED !important;
+}
+
+body {
+  overflow: hidden !important;
+}
+
+.margin-top {
+  margin-top: 35px;
+}
+
+.nav-link {
+  color: #454545;
+}
+
+.bac {
+  height: 700px;
+  background: url(../images/header_bg.jpg);
+  margin: 0 !important;
+  background-repeat: no-repeat;
+  background-size: 1920px 768px;
+  background-attachment: fixed;
+}
+
+.ct {
+  position: relative;
+  bottom: -20%;
+  right: -47.5%;
+}
+
+.ct2 {
+  position: relative;
+  bottom: -20%;
+  right: -44%;
+}
+
+.ct3 {
+  position: absolute;
+  bottom: 637px;
+  right: 887px;
+}
+
+.ct4 {
+  position: absolute;
+  bottom: 471px;
+  right: 905px;
+}
+
+.ct5 {
+  position: relative;
+  bottom: -47%;
+  right: -49.3%;
+  text-transform: uppercase;
+}
+
+#pres {
+  background: #fff;
+
+}
+h5 {
+  text-transform: uppercase;
+  margin-left:65px;
+}
+.vide {
+  background:white;
+  height:100px;
+}
+.crayon {
+  margin-left: 85px;
+}
+#about {
+  margin-top:200px;
+}
+.ct6{
+  margin-left:505px;
+}
+.cth5{
+  margin-left:490px;
+}
+.crto{
+  margin-top:120px;
+}
+.progress-bar{
+  background-color:#F73B56 !important;
+  height:3px;
+}
+.progress{
+  height:3px !important;
+}
+.logoe {
+  margin-top:120px;
+}
+.aligne {
+  margin-top:50px;
+}
+#parallax {
+  margin-top:0px;
+  padding-top:0px;
+  background:#fff;
+}
+.opacite {
+  height:500px;
+  margin-top:60px;
+  background: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px 768px;
+  background-attachment: fixed;
+}
+.opacite2 {
+  background:rgba(0,0,0, 0.5);
+  width:100%;
+  height:300px;
+}
+.title8 {
+  margin-top:80px;
+  margin-left:80px;
+  color:#fff;
+}
+.title9 {
+  color: #fff;
+  margin-top:10px;
+  margin-left:75px;
+  text-transform:uppercase;
+}
+.mac {
+  position:absolute;
+  right:15%;
+  bottom:5%;
+}
+.element{
+   background-image: url("../images/header_bg.jpg");
+   background-size: auto ;
+   width: 300px;
+   height: 200px;
+}
+.block-1{ display: initial;}
+.block-2{ display: inline; }
+
+.main{
+   position : relative;
+   left : 20px ;
+}
+.parent{
+   margin-left: 40px;
+}
+p{
+   position : static;
+   padding-left : 50px;
+}
+span{
+   position : absolute;
+   left : 10px;
+}

@@ -1,0 +1,115 @@
+/*
+Global
+*/
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif;
+}
+
+/*
+Header
+*/
+.home {
+  background-position: 50% -125px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #F74D65;
+}
+
+header {
+  background: url(../images/header_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section_overlay {
+  background: rgba(250, 250, 250, .5);
+}
+
+.home_text {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+
+.home_text h2 {
+  color: #010101;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 13px;
+}
+
+.home_text p {
+  color: #404040;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.scroll_down {
+  padding-bottom: 50px;
+}
+
+.scroll_down h4 {
+  font-size: 12px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+/*
+Services
+*/
+.services {
+  padding-top: 96px;
+}
+
+.services .container {
+  border-bottom: 1px solid #ddd;
+}
+
+.single_service {
+  padding-bottom: 96px;
+}
+
+.single_service i {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.single_service h2 {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.single_service p {
+  color: #404040;
+  font-size: 14px;
+}
+/*
+About
+*/
+
+.single_progress_bar {
+
+}
+
+.about_us {
+  font-size:14px;
+  color: #272727;
+
+  
+
+}
