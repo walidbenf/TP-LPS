@@ -44,3 +44,6 @@ Make a website about myself with contact page.
 
 ### TP06
 Make a gite rental site(only index page)
+
+### TP07
+Make a site with images effects(the goal is to learn style like hover,icons etc... whitout bootstrap)
